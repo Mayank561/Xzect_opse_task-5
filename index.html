@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="left">
+          <ul>
+            <li>Los Angeles Gournadi, 1230 Barisal</li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li>noreply@pbminfotech.com</li>
+            <li>+(123) 1234-567-8901</li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <div class="container-2">
+            <div class="container-3">
+                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/dark-logo.svg" alt="Logo"/>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>HOME</li>
+                    <li>PAGES</li>
+                    <li>SERVICES</li>
+                    <li>PROJECT</li>
+                    <li>BLOG</li>
+                    <li>CONTACT US</li>
+                </ul>
+                <div class="close" onclick="toggleMenu()">
+                    &times;
+                </div>
+            </div>
+            <div class="btn">
+                <button>GET IN TOUCH</button>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+        </div>
+        <!-- text -->
+        <div class="container-4">
+            <div class="content">
+                <h5>IMPROVE YOUR ASPIRATIONS</h5>
+                <h1>Acknowledge<br> the Unexpected.</h1>
+                <div class="para">
+                    <div class="underline"></div>
+                    <p>Devise and implement business Strategies <br> for in entire business or division</p>
+                </div>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-1">
+      <article>
+        <div class="main-container">
+          <div class="container2">
+            <h5>WHAT WE OFFER</h5>
+            <div class="text-content">
+              <h1>Marketing & Advertising</h1>
+              <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <!-- second-content -->
+          <div class="main-container" id="hidden-0">
+            <div class="container2">
+              <h5>WE GOOD COMPANY</h5>
+              <div class="text-content">
+                <h1>Personal Development</h1>
+                <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <!-- third-content -->
+          <div class="main-container" id="hidden-1">
+            <div class="container2">
+              <h5>WHAT WE DO</h5>
+              <div class="text-content">
+                <h1>Research & Strategy</h1>
+                <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <!-- fourth-content -->
+          <div class="main-container" id="hidden-2">
+            <div class="container2">
+              <h5>WE OFFER FOR YOU</h5>
+              <div class="text-content">
+                <h1>Marketing Automation</h1>
+                <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <div class="main-container-2">
+          <div class="container-left">
+            <h5>HAPPY CLIENTS</h5>
+            <h1>300+</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="container-left2">
+            <h5>TOTAL EMPLOYEES</h5>
+            <h1>575+</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="container-left3">
+            <h1>USEFULL PROGRAMS</h1>
+            <h1>245+</h1>
+          </div>
+
+        </div>
+      </article>
+    </section>
+
+
+    <script>
+        function toggleMenu() {
+            const list = document.querySelector('.list');
+            list.classList.toggle('active');
+        }
+    </script>
+  </body>
+</html>
