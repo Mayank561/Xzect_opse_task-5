@@ -501,6 +501,7 @@ header{
 }
 .main-heading{
     padding-left: 10px;
+    padding-bottom: 50px;
 }
 .main-heading h5{
     display: inline-block;
@@ -514,6 +515,7 @@ header{
     padding-right: 19px;
     padding-top: 2px;
     padding-bottom: 2px;
+    
 }
 .main-heading h1{
     font-size: 3rem;
@@ -532,7 +534,8 @@ header{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    /* background: #fff; */
+    border-right: 1px solid ;
+    border-color: rgba(255,255,255,0.2);
   }
   
   .img0 {
@@ -546,8 +549,336 @@ header{
   
   .text a {
     display: block;
-    color: #000;
+    color: white;
     text-decoration: none;
     margin: 5px 0;
+    
   }
   
+
+  /* secyion */
+/* Section */
+/* Section */
+.section-4 {
+    min-height: 100vh;
+    max-width: 100vw;
+    padding-top: 130px;
+    padding-bottom: 120px;
+    overflow: hidden;
+  }
+  
+  .container-8 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  .main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .main-title h4 {
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 12px;
+    background-color: #f5f2f0;
+    color: #111112;
+    padding: 5px 19px;
+  }
+  
+  .main-title h1 {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 60px;
+    color: var(--pbmit-heading-color);
+    text-align: center;
+  }
+  
+  .wrapper-slide {
+    display: flex;
+    width: 100%;
+  }
+  
+  .slides {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-height: 748px;
+    border: 1px solid black;
+    background: #f5f2f0;
+  }
+  
+  .slider-title {
+    padding-left: 90px;
+    padding-right: 150px;
+    padding-top: 86px;
+  }
+  
+  .slider-title h1 {
+    display: block;
+    font-size: 7rem;
+    color: white;
+    padding-bottom: 60px;
+  }
+  
+  .slider-title h3 {
+    display: block;
+    font-size: 2rem;
+  }
+  
+  .slider-title p {
+    display: block;
+    max-width: 436px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .para-list p {
+    padding-left: 117px;
+    padding-top: 14px;
+    /* line-height: 30px; */
+  }
+  
+  .side-image {
+    width: 50%;
+    height: 615px;
+  }
+  
+  .side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Media Query for Tablets */
+  @media (max-width: 1024px) {
+    .wrapper-slide {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .slides {
+      width: 100%;
+      max-height: none;
+      border: none;
+    }
+  
+    .slider-title {
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 40px;
+    }
+  
+    .slider-title h1 {
+      font-size: 5rem;
+      padding-bottom: 30px;
+    }
+  
+    .slider-title h3 {
+      font-size: 1.5rem;
+    }
+  
+    .slider-title p {
+      max-width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .para-list p {
+      padding-left: 40px;
+      padding-top: 10px;
+    }
+  
+    .side-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .side-image img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .main-title h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .wrapper-slide {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .slides {
+      width: 100%;
+      max-height: none;
+      border: none;
+    }
+  
+    .slider-title {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+    }
+  
+    .slider-title h1 {
+      font-size: 3rem;
+      padding-bottom: 20px;
+    }
+  
+    .slider-title h3 {
+      font-size: 1.25rem;
+    }
+  
+    .slider-title p {
+      max-width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .para-list p {
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+  
+    .side-image {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .side-image img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  
+
+/* section-5 */
+.section-5{
+    max-height: 80%;
+    max-width: auto;
+    overflow: hidden;
+}
+
+  #swipe-1{
+    -webkit-transition-timing-function:linear!important;
+    transition-timing-function:linear!important; 
+  }
+  /*     .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } */
+ #swipe-2 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0 50px;
+  }
+
+  /* section-6 */
+ 
+  .section-6{
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+  .sect-1 {
+    background-image: url("https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/bg/fid-bg.jpg");
+  /*  background-size: 200% 100%;  Scale the image to twice its width */
+   /*  background-position: left center; Position it to show the left half */
+    max-width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  
+  .circle-chart {
+    position: absolute;
+    top: 390px;
+    left: 100px;
+}
+  .circle-chart__label {
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+  .circle-chart__circle {
+    animation: circle-chart-fill 2s reverse; /* 1 */ 
+    transform: rotate(-90deg); /* 2, 3 */
+    transform-origin: center; /* 4 */
+  }
+  
+  .circle-chart__circle--negative {
+    transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+  }
+  
+  .circle-chart__info {
+    animation: circle-chart-appear 2s forwards;
+    opacity: 0;
+    transform: translateY(0.3em);
+  }
+ 
+  @keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+  }
+  
+  @keyframes circle-chart-appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .text-right{
+    position: absolute;
+    color:white;
+    top: 445px;
+    left: 291px;
+    font-size: 28px;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 0px;
+  }
+  @media screen and (max-width: 700px){
+    .circle-chart{
+        display: none;
+    }
+    .text-right{
+        display: none;
+    }
+    .sect-1{
+        width: 100%;
+        background-position: center;
+    }
+  }
+  @media screen and (max-width: 900px){
+    .sect-1{
+        width: 100%;
+        /* background-position: center middle; */
+    }
+  }
+
+
+  /* section 7 */
