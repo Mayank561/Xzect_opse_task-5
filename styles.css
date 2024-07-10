@@ -1913,6 +1913,7 @@ header{
 .container-11s{
   display: flex;
   flex-direction:row;
+  flex
 }
 .footer-icon{
   width: 506px;
@@ -1947,8 +1948,8 @@ header{
 }
 
 .footer-title input {
-  /* width: 460px; */
-  width: 450px;
+  max-width: 450px;
+    min-width: 365px;
   height: 50px;
   color: white;
   padding-left: 80px;
@@ -2083,7 +2084,7 @@ header{
   width: 1021px;
 }
 .footer-lists .footer-para-1{
-  width: 481px;
+  width: 450px;
   height: 22px;
   font-family:"DM Sans", sans-serif;
   font-size: 14px;
@@ -2100,3 +2101,67 @@ header{
   text-align: end;
   letter-spacing: normal;
 }
+@media screen and (max-width: 1200px){
+  .container-11s
+}
+@media (max-width: 768px) {
+  .container-11s {
+    flex-direction: column;
+    max-width: 100vw;
+  }
+  .footer-section{
+    padding: 7px;
+    padding-top:20px;
+    /* padding-bottom:20px; */
+  }
+  .footer-icon {
+    width: 100%;
+    height: 30px;
+    /* padding: 20px; */
+  }
+  .footer-title h2{
+    padding-top: 30px;
+    width: 418px;
+    height: 90px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .footer-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-title form{
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 447px;
+    height: 80px;
+  }
+  .footer-title input{
+    width: 418px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .next-col{
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+
+  .footer-lists{
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom:30px;
+    width: 446px;
+    /* align-items: center; */
+    /* height: 121px; */
+  } 
+  
+  .footer-para-1, .footer-para {
+    width: 280px;
+    text-align: center;
+    line-height: 35px;
+  }
+}
+
