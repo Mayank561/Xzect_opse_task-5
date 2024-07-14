@@ -8,9 +8,10 @@
   body {
     max-height: 100vh;
     max-width: 100vw;
+  }
+  .page{
     overflow-x: hidden;
   }
-
   header {
     position: absolute;
     width: 100%;
