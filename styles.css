@@ -8,12 +8,13 @@
     max-height: 100vh;
     max-width: 100vw;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:"Playfair Display", serif;
   }
   .page-wrapper{
     max-width: 100vw;;
-    /* max-height: 100vh; */
+    box-sizing: border-box;
     overflow-x: hidden;
+
   }
   header {
     position: absolute;
