@@ -630,6 +630,21 @@
       max-width: 100%;
     }
 }
+@media screen and (max-width: 400px){
+  .main-container-2{
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  .text-content h1{
+    font-size: 1.6rem;
+  }
+  .text-content p{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
 
 .section-3{
     min-height: 100%;
