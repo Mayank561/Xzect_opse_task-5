@@ -277,6 +277,7 @@
   
   @media screen and (max-width: 400px){
     .carousel-caption{
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       transform: translate(-50%, 0%);
@@ -294,6 +295,11 @@
     }
     .carousel-caption .para-1 {
       font-size: 11px;
+      padding-left: 0px;
+    }
+    .carousel-caption .btn-1{
+      padding-left: 0px;
+      padding-top: 5px;
     }
 
   }
