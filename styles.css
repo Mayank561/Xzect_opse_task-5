@@ -60,7 +60,7 @@
   .list {
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
   }
 
@@ -73,6 +73,7 @@
   .list ul li {
     color: white;
     cursor: pointer;
+    padding-right: 24px;
   }
 
   .btn button {
@@ -124,6 +125,7 @@
         right: 0;
         padding-top: 60px;
     }
+
 
     .list ul {
         flex-direction: column;
