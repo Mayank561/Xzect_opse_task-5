@@ -4,1139 +4,1301 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <!-- bootsrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <!-- Font Awesome CSS (for example) -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <div class="page-wrapper">
-    <header>
-      <div class="container">
-        <div class="left">
-          <ul>
-            <li> Los Angeles Gournadi, 1230 Barisal</li>
-          </ul>
+      <header>
+        <div class="container">
+          <div class="left">
+            <ul>
+              <li>Los Angeles Gournadi, 1230 Barisal</li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul>
+              <li>noreply@pbminfotech.com</li>
+              <li>+(123) 1234-567-8901</li>
+            </ul>
+          </div>
         </div>
-        <div class="right">
-          <ul>
-            <li>noreply@pbminfotech.com</li>
-            <li > +(123) 1234-567-8901</li>
-          </ul>
+        <div class="container-2">
+          <div class="container-3">
+            <img
+              src="https://capigo-demo.pbminfotech.com/html-demo/images/dark-logo.svg"
+              alt="Logo"
+            />
+          </div>
+          <div class="list">
+            <ul>
+              <li>HOME</li>
+              <li>PAGES</li>
+              <li>SERVICES</li>
+              <li>PROJECT</li>
+              <li>BLOG</li>
+              <li>CONTACT US</li>
+            </ul>
+            <div class="close" onclick="toggleMenu()">&times;</div>
+          </div>
+          <div class="btn">
+            <button>GET IN TOUCH</button>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        </div>
+      </header>
+      <div id="swiper-container" class="swiper">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide"
+            style="
+              background-image: url('https://capigo-demo.pbminfotech.com/html-demo/images/banner-slider-img/slider01-slide-1.jpg');
+            "
+          >
+            <div class="carousel-caption">
+              <h3>IMPROVE YOUR FUTURE</h3>
+              <h2><strong>Acknowledge</strong><br />the Unexpected.</h2>
+              <div class="para-1">
+                Devise and implement business strategies
+                <br />
+                for an entire business or division.
+              </div>
+              <div class="btn-1" data-aos="fade-up">
+                <button>
+                  Contact us
+                  <span
+                    style="font-size: 0.9rem"
+                    class="material-symbols-outlined"
+                  >
+                    arrow_outward
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="
+              background-image: url('https://capigo-demo.pbminfotech.com/html-demo/images/banner-slider-img/slider01-slide-2.jpg');
+            "
+          >
+            <div class="carousel-caption">
+              <h3>PLAN FOR SECURE ASPIRATIONS</h3>
+              <h2><strong>Empowering</strong><br />Your Potential.</h2>
+              <div class="para-1">
+                Devise and implement business strategies
+                <br />
+                for an entire business or division.
+              </div>
+              <div class="btn-1" data-aos="fade-up">
+                <button>
+                  Contact us
+                  <span
+                    style="font-size: 0.9rem"
+                    class="material-symbols-outlined"
+                    >arrow_outward</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="container-2">
-        <div class="container-3">
-          <img src="https://capigo-demo.pbminfotech.com/html-demo/images/dark-logo.svg" alt="Logo"/>
-        </div>
-        <div class="list">
-          <ul>
-            <li>HOME</li>
-            <li>PAGES</li>
-            <li>SERVICES</li>
-            <li>PROJECT</li>
-            <li>BLOG</li>
-            <li>CONTACT US</li>
-          </ul>
-          <div class="close" onclick="toggleMenu()">
-            &times;
-          </div>
-        </div>
-        <div class="btn">
-          <button>GET IN TOUCH</button>
-        </div>
-        <div class="hamburger" onclick="toggleMenu()">
-          &#9776;
-        </div>
-      </div>
-    </header>
-    <!-- swiper -->
-    <div id="swiper-container" class="swiper">
-      <div class="swiper-wrapper">
-        <!-- First swiper-slide -->
-        <div class="swiper-slide" style="background-image: url('https://capigo-demo.pbminfotech.com/html-demo/images/banner-slider-img/slider01-slide-1.jpg');">
-          <div class="carousel-caption">
-            <h3>IMPROVE YOUR FUTURE</h3>
-            <h2><strong>Acknowledge</strong><br>the Unexpected.</h2>
-            <div class="para-1">
-              Devise and implement business strategies
-              <br>
-              for an entire business or division.
-            </div>
-            <div class="btn-1" data-aos="fade-up">
-              <button>Contact us <span style="font-size: 0.9rem;"  class="material-symbols-outlined">
-                arrow_outward
-                </span></button>
-            </div>
-          </div>
-        </div>
-        <!-- Second swiper-slide -->
-        <div class="swiper-slide" style="background-image: url('https://capigo-demo.pbminfotech.com/html-demo/images/banner-slider-img/slider01-slide-2.jpg');">
-          <div class="carousel-caption">
-            <h3>PLAN FOR SECURE ASPIRATIONS</h3>
-            <h2><strong>Empowering</strong><br>Your Potential.</h2>
-            <div class="para-1">
-              Devise and implement business strategies
-              <br>
-              for an entire business or division.
-            </div>
-            <div class="btn-1" data-aos="fade-up">
-              <button>Contact us <span style="font-size: 0.9rem;" class="material-symbols-outlined">arrow_outward</span></button>
-            </div>
-          </div>
-        </div>
-        <!-- Add more slides as needed -->
-      </div>
-      <!-- Add Pagination -->
-      <!-- <div class="swiper-pagination"></div> -->
-      <!-- Add Navigation -->
-      <!-- <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div> -->
-    </div>
-    
 
-
-
-
-    <section class="section-1">
-      <article >
-        <div class="main-container">
-          <div class="container2 ">
-            <h5 class="pbmit-element-subtitle">WHAT WE OFFER  </h5>
-            <div class="text-content">
-              <h1 class="pbmit-element-title">Marketing & Advertising</h1>
-              <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
-            </div>
-          </div>
-          <!-- second-content -->
-          <div class="main-container" id="hidden-0">
+      <section class="section-1">
+        <article>
+          <div class="main-container">
             <div class="container2">
-              <h5>WE GOOD COMPANY</h5>
+              <h5 class="pbmit-element-subtitle">WHAT WE OFFER</h5>
               <div class="text-content">
-                <h1>Personal Development</h1>
-                <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
+                <h1 class="pbmit-element-title">Marketing & Advertising</h1>
+                <p>
+                  Consecetetur adipiscing elit sed do eiusm onsectetur
+                  adipiscing elit.
+                </p>
               </div>
             </div>
-          </div>
-          <!-- third-content -->
-          <div class="main-container" id="hidden-1">
-            <div class="container2">
-              <h5>WHAT WE DO</h5>
-              <div class="text-content">
-                <h1>Research & Strategy</h1>
-                <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-          <!-- fourth-content -->
-          <div class="main-container" id="hidden-2">
-            <div class="container2">
-              <h5>WE OFFER FOR YOU</h5>
-              <div class="text-content">
-                <h1>Marketing Automation</h1>
-                <p>Consecetetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section class="section-2">
-      <article>
-        <div class="main-container-2">
-          <div class="first-wrap">
-            <div class="container-left">
-              <h5>HAPPY CLIENTS</h5>
-              <h1 class="count-1"></h1>
-              <!-- <div class="underline"></div> -->
-            </div>
-            <div class="container-left2">
-              <div class="und">
-              <h5>TOTAL EMPLOYEES</h5>
-              <h1 class="count-2"></h1>
-            </div>
-            </div>
-            <div class="container-left3">
-              <div class="und">
-                <h5>USEFULL PROGRAMS</h5>
-                <h1 class="count-3"></h1>
-              </div>
-            </div>
-          </div>
-          <div class="second-wrap">
-            <img class="img-cl" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/img-01.jpg" alt="Image" style="width: 100%; height: 100%;">
-          </div>
-          <div class="right-content">
-            <div class="wrap-right">
-              <h5>WHO WE ARE</h5>
-              <h1>Small businesses is Doob's area of expertise.</h1>
-              <div class="wrap-text">
-                <!-- <input type="checkbox"> -->
-                <span><input type="checkbox" style="height: 2rem;width: 2rem;;"><h4> A good traveler has no fixed plan</h4></span>
-                <p>Ded do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-              </div>
-              <div class="wrap-text">
-                <!-- <input type="checkbox"> -->
-                <span><input type="checkbox" style="height: 2rem;width: 2rem;;"><h4> A good traveler has no fixed plan</h4></span>
-                <p>Ded do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <!-- another one -->
-    <section class="section-3">
-      <article>
-        <div class="container-7">
-          <div class="wrap-slider">
-            <div class="main-heading" >
-              <h5>OUR SERVICES</h5>
-              <h1 data-aos="fade-left">We offer a great number of <br>finance services</h1>
-            </div>
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-01.jpg" alt="" style="max-width: 80%;" data-aos="fade-up">
-                  <div class="text">
-                    <a href="#" class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-02.jpg" alt="" style="max-width: 80%;"data-aos="fade-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-03.jpg" alt="" style="max-width: 80%;"data-aos="fade-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-04.jpg" alt="" style="max-width: 80%;"data-aos="fade-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-05.jpg" alt="" style="max-width: 80%;"data-aos="fade-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-06.jpg" alt="" style="max-width: 80%;"data-aos="fade-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-07.jpg" alt="" style="max-width: 80%;"data-aos="zoom-in-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-08.jpg" alt="" style="max-width: 80%;"data-aos="zoom-in-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-09.jpg" alt="" style="max-width: 80%;"data-aos="zoom-in-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-04.jpg" alt="" style="max-width: 80%;"data-aos="zoom-in-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <img class="img0" src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-02.jpg" alt="" style="max-width: 80%;"data-aos="zoom-in-up">
-                  <div class="text">
-                    <a href="#"class="m-head">MANAGEMENT</a>
-                    <a href="#">Financial Management</a>
-                  </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
-
-   <section class="section-4">
-    <article>
-      <div class="container-8"data-aos="fade-up">
-        <div class="main-title">
-          <h4>OUR PROCESS</h4>
-          <h1 data-aos="fade-left">Digitize your business now <br>
-            with our best experts</h1>
-          </div>
-          <div class="main-wrapeer-2" >
-            <div class="wrapper-slide">
-              <div class="slides">
-                <div class="slider-title">
-                  <h1>01</h1>
-                  <h3>Answer a Few Questions</h3>
-                  <p> We welcome and celebrate different perspectives to help our firm, our clients and our people achieve enduring results.</p>
-                </div>
-                <div class="para-list">
-                  <p>Translating the design into code using Webflow</p>
-                </div>
-                <div class="para-list">
-                  <p>Responsive and functions perfectly across all devices
+            <div class="main-container" id="hidden-0">
+              <div class="container2">
+                <h5>WE GOOD COMPANY</h5>
+                <div class="text-content">
+                  <h1>Personal Development</h1>
+                  <p>
+                    Consecetetur adipiscing elit sed do eiusm onsectetur
+                    adipiscing elit.
                   </p>
                 </div>
-                <div class="para-list">
-                  <p>Testing the website thoroughly before launch</p>
-                </div>
-              </div>
-              <div class="side-image">
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/card-img-01.jpg" alt="" >
               </div>
             </div>
-        </div>
-        <!--  -->
-      </div>
-      <!--  -->
-      <div class="container-9">
-          <div class="main-wrapeer-2" >
-            <div class="wrapper-slide">
-              <div class="slides">
-                <div class="slider-title">
-                  <h1>02</h1>
-                  <h3>Changing of finance goals</h3>
-                  <p>Interview vetted advisors to find the best fit Lorem ipsum dolor sit amet, consectetur adip iscing elit.</p>
-                </div>
-                <div class="para-list">
-                  <p>Translating the design into code using Webflow</p>
-                </div>
-                <div class="para-list">
-                  <p>Responsive and functions perfectly across all devices
+            <div class="main-container" id="hidden-1">
+              <div class="container2">
+                <h5>WHAT WE DO</h5>
+                <div class="text-content">
+                  <h1>Research & Strategy</h1>
+                  <p>
+                    Consecetetur adipiscing elit sed do eiusm onsectetur
+                    adipiscing elit.
                   </p>
                 </div>
-                <div class="para-list">
-                  <p>Testing the website thoroughly before launch</p>
-                </div>
-              </div>
-              <div class="side-image">
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/card-img-02.jpg" alt="" >
               </div>
             </div>
-        </div>
-        <!--  -->
-      </div>
-      <!--  -->
-      <div class="container-9">
-          <div class="main-wrapeer-2" >
-            <div class="wrapper-slide">
-              <div class="slides">
-                <div class="slider-title">
-                  <h1>03</h1>
-                  <h3>Increase Your Net Worth</h3>
-                  <p>Interview vetted advisors to find the best fit Lorem ipsum dolor sit amet, consectetur adip iscing elit.</p>
-                </div>
-                <div class="para-list">
-                  <p>Translating the design into code using Webflow</p>
-                </div>
-                <div class="para-list">
-                  <p>Responsive and functions perfectly across all devices
+            <div class="main-container" id="hidden-2">
+              <div class="container2">
+                <h5>WE OFFER FOR YOU</h5>
+                <div class="text-content">
+                  <h1>Marketing Automation</h1>
+                  <p>
+                    Consecetetur adipiscing elit sed do eiusm onsectetur
+                    adipiscing elit.
                   </p>
                 </div>
-                <div class="para-list">
-                  <p>Testing the website thoroughly before launch</p>
-                </div>
-              </div>
-              <div class="side-image">
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/card-img-03.jpg" alt="" >
               </div>
             </div>
-        </div>
-        <!--  -->
-      </div>
-    </article>
-   </section>
+          </div>
+        </article>
+      </section>
 
-   <!-- text slider pending color -->
-   <section class="section-5">
-    <article>
-    <div class="mySwiper swiper" id="mySwiper">
-      <div class="swiper-wrapper"id="swipe-1">
-        <!-- Slides -->
-        <div class="swiper-slide" id="swipe-2">
-          <h2>Purchasing &amp; Combining</h2>
-        </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Capital Obtaining</h2>
+      <section class="section-2">
+        <article>
+          <div class="main-container-2">
+            <div class="first-wrap">
+              <div class="container-left">
+                <h5>HAPPY CLIENTS</h5>
+                <h1 class="count-1"></h1>
+              </div>
+              <div class="container-left2">
+                <div class="und">
+                  <h5>TOTAL EMPLOYEES</h5>
+                  <h1 class="count-2"></h1>
+                </div>
+              </div>
+              <div class="container-left3">
+                <div class="und">
+                  <h5>USEFULL PROGRAMS</h5>
+                  <h1 class="count-3"></h1>
+                </div>
+              </div>
+            </div>
+            <div class="second-wrap">
+              <img
+                class="img-cl"
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/img-01.jpg"
+                alt="Image"
+                style="width: 100%; height: 100%"
+              />
+            </div>
+            <div class="right-content">
+              <div class="wrap-right">
+                <h5>WHO WE ARE</h5>
+                <h1>Small businesses is Doob's area of expertise.</h1>
+                <div class="wrap-text">
+                  <span
+                    ><input type="checkbox" style="height: 2rem; width: 2rem" />
+                    <h4>A good traveler has no fixed plan</h4></span
+                  >
+                  <p>
+                    Ded do eiusmod tempor incididunt ut labore et dolore aliqua.
+                    Ut enim ad minim veniam, quis nostrud.
+                  </p>
+                </div>
+                <div class="wrap-text">
+                  <span
+                    ><input type="checkbox" style="height: 2rem; width: 2rem" />
+                    <h4>A good traveler has no fixed plan</h4></span
+                  >
+                  <p>
+                    Ded do eiusmod tempor incididunt ut labore et dolore aliqua.
+                    Ut enim ad minim veniam, quis nostrud.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Market Research</h2>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Growth Strategy</h2>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Purchasing &amp; Combining</h2>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Capital Obtaining</h2>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h1>Market Research</h1>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Growth Strategy</h2>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Purchasing &amp; Combining</h2>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Purchasing &amp; Combining</h2>
-          </div>
-          <div class="swiper-slide" id="swipe-2">
-            <h2>Purchasing &amp; Combining</h2>
-          </div>
-      </div>
-    </div>
-    </article>
-   </section>
+        </article>
+      </section>
 
-
-       
-    <section class="section-6">
-    <article>
-      <div class="container-00">
-        <div class="sect-1">
-          <div class="circle-chart">
-            <svg viewbox="0 0 35.83098862 35.83098862" width="130" height="130" xmlns="http://www.w3.org/2000/svg" class="hei">
-              <!-- back -->
-             <circle class="circle-chart__background" stroke="#1a3417" stroke-width="2" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
-                <circle class="circle-chart__circle" stroke="white" stroke-width="2" stroke-dasharray="80,100" stroke-linecap="none" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
-                <g class="circle-chart__info">
-                  <text class="circle-chart__percent"  x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle"  font-size="8" fill="white">80%</text>
-                </g>
-              </svg>
+      <section class="section-3">
+        <article>
+          <div class="container-7">
+            <div class="wrap-slider">
+              <div class="main-heading">
+                <h5>OUR SERVICES</h5>
+                <h1 data-aos="fade-left">
+                  We offer a great number of <br />finance services
+                </h1>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-01.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="fade-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-02.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="fade-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-03.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="fade-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-04.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="fade-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-05.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="fade-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-06.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="fade-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-07.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="zoom-in-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-08.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="zoom-in-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-09.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="zoom-in-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-04.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="zoom-in-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img0"
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/service/service-02.jpg"
+                      alt=""
+                      style="max-width: 80%"
+                      data-aos="zoom-in-up"
+                    />
+                    <div class="text">
+                      <a href="#" class="m-head">MANAGEMENT</a>
+                      <a href="#">Financial Management</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="text-right">
-            Business Charms for <br> Achievement
+        </article>
+      </section>
+
+      <section class="section-4">
+        <article>
+          <div class="container-8" data-aos="fade-up">
+            <div class="main-title">
+              <h4>OUR PROCESS</h4>
+              <h1 data-aos="fade-left">
+                Digitize your business now <br />
+                with our best experts
+              </h1>
+            </div>
+            <div class="main-wrapeer-2">
+              <div class="wrapper-slide">
+                <div class="slides">
+                  <div class="slider-title">
+                    <h1>01</h1>
+                    <h3>Answer a Few Questions</h3>
+                    <p>
+                      We welcome and celebrate different perspectives to help
+                      our firm, our clients and our people achieve enduring
+                      results.
+                    </p>
+                  </div>
+                  <div class="para-list">
+                    <p>Translating the design into code using Webflow</p>
+                  </div>
+                  <div class="para-list">
+                    <p>Responsive and functions perfectly across all devices</p>
+                  </div>
+                  <div class="para-list">
+                    <p>Testing the website thoroughly before launch</p>
+                  </div>
+                </div>
+                <div class="side-image">
+                  <img
+                    src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/card-img-01.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!--  -->
           </div>
-        </div>
-      </div>
-    </article>
-  </section>
+          <!--  -->
+          <div class="container-9">
+            <div class="main-wrapeer-2">
+              <div class="wrapper-slide">
+                <div class="slides">
+                  <div class="slider-title">
+                    <h1>02</h1>
+                    <h3>Changing of finance goals</h3>
+                    <p>
+                      Interview vetted advisors to find the best fit Lorem ipsum
+                      dolor sit amet, consectetur adip iscing elit.
+                    </p>
+                  </div>
+                  <div class="para-list">
+                    <p>Translating the design into code using Webflow</p>
+                  </div>
+                  <div class="para-list">
+                    <p>Responsive and functions perfectly across all devices</p>
+                  </div>
+                  <div class="para-list">
+                    <p>Testing the website thoroughly before launch</p>
+                  </div>
+                </div>
+                <div class="side-image">
+                  <img
+                    src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/card-img-02.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
+          <div class="container-9">
+            <div class="main-wrapeer-2">
+              <div class="wrapper-slide">
+                <div class="slides">
+                  <div class="slider-title">
+                    <h1>03</h1>
+                    <h3>Increase Your Net Worth</h3>
+                    <p>
+                      Interview vetted advisors to find the best fit Lorem ipsum
+                      dolor sit amet, consectetur adip iscing elit.
+                    </p>
+                  </div>
+                  <div class="para-list">
+                    <p>Translating the design into code using Webflow</p>
+                  </div>
+                  <div class="para-list">
+                    <p>Responsive and functions perfectly across all devices</p>
+                  </div>
+                  <div class="para-list">
+                    <p>Testing the website thoroughly before launch</p>
+                  </div>
+                </div>
+                <div class="side-image">
+                  <img
+                    src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/card-img-03.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </article>
+      </section>
 
+      <!-- text slider pending color -->
+      <section class="section-5">
+        <article>
+          <div class="mySwiper swiper" id="mySwiper">
+            <div class="swiper-wrapper" id="swipe-1">
+              <!-- Slides -->
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Purchasing &amp; Combining</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Capital Obtaining</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Market Research</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Growth Strategy</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Purchasing &amp; Combining</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Capital Obtaining</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h1>Market Research</h1>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Growth Strategy</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Purchasing &amp; Combining</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Purchasing &amp; Combining</h2>
+              </div>
+              <div class="swiper-slide" id="swipe-2">
+                <h2>Purchasing &amp; Combining</h2>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
 
+      <section class="section-6">
+        <article>
+          <div class="container-00">
+            <div class="sect-1">
+              <div class="circle-chart">
+                <svg
+                  viewbox="0 0 35.83098862 35.83098862"
+                  width="130"
+                  height="130"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="hei"
+                >
+                  <!-- back -->
+                  <circle
+                    class="circle-chart__background"
+                    stroke="#1a3417"
+                    stroke-width="2"
+                    fill="none"
+                    cx="17.91549431"
+                    cy="17.91549431"
+                    r="15.91549431"
+                  />
+                  <circle
+                    class="circle-chart__circle"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-dasharray="80,100"
+                    stroke-linecap="none"
+                    fill="none"
+                    cx="17.91549431"
+                    cy="17.91549431"
+                    r="15.91549431"
+                  />
+                  <g class="circle-chart__info">
+                    <text
+                      class="circle-chart__percent"
+                      x="16.91549431"
+                      y="16.5"
+                      alignment-baseline="central"
+                      text-anchor="middle"
+                      font-size="8"
+                      fill="white"
+                    >
+                      80%
+                    </text>
+                  </g>
+                </svg>
+              </div>
+              <div class="text-right">
+                Business Charms for <br />
+                Achievement
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
 
-
-
-  <section class="section-7">
-    <article>
-        <div class="container-sliders">
+      <section class="section-7">
+        <article>
+          <div class="container-sliders">
             <div class="left-title">
-                <div class="heading">
-                    <h5>MEET OUR TEAM</h5>
-                    <div class="main-heading-1">
-                        <h1>Meet our team of experts</h1>
-                    </div>
-                    <div class="para">
-                        <p>We welcome and celebrate different perspectives to help our firm, our clients, and our people.</p>
-                    </div>
+              <div class="heading">
+                <h5>MEET OUR TEAM</h5>
+                <div class="main-heading-1">
+                  <h1>Meet our team of experts</h1>
                 </div>
+                <div class="para">
+                  <p>
+                    We welcome and celebrate different perspectives to help our
+                    firm, our clients, and our people.
+                  </p>
+                </div>
+              </div>
             </div>
             <div class="team-members owl-carousel">
-                <div class="member">
-                    <h6>BUSINESS MANAGER</h6>
-                    <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-01.jpg" alt="Edward Smith">
-                    <h2>Edward Smith</h2>
-                    <div class="icons-7">
-                        <ul>
-                            <li><a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Twitter" target="_blank"><i class="bi bi-twitter" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="YouTube" target="_blank"><i class="bi bi-youtube" style="color:#829692"></i></a></li>
-                        </ul>
-                    </div>
+              <div class="member">
+                <h6>BUSINESS MANAGER</h6>
+                <img
+                  src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-01.jpg"
+                  alt="Edward Smith"
+                />
+                <h2>Edward Smith</h2>
+                <div class="icons-7">
+                  <ul>
+                    <li>
+                      <a href="#" title="Facebook" target="_blank"
+                        ><i class="bi bi-facebook" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Twitter" target="_blank"
+                        ><i class="bi bi-twitter" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Instagram" target="_blank"
+                        ><i class="bi bi-instagram" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="YouTube" target="_blank"
+                        ><i class="bi bi-youtube" style="color: #829692"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="member">
-                    <h6>LEGAL OFFICER</h6>
-                    <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-02.jpg" alt="Julia Taylor">
-                    <h2>Julia Taylor</h2>
-                    <div class="icons-7">
-                        <ul>
-                            <li><a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Twitter" target="_blank"><i class="bi bi-twitter" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="YouTube" target="_blank"><i class="bi bi-youtube" style="color:#829692"></i></a></li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="member">
+                <h6>LEGAL OFFICER</h6>
+                <img
+                  src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-02.jpg"
+                  alt="Julia Taylor"
+                />
+                <h2>Julia Taylor</h2>
+                <div class="icons-7">
+                  <ul>
+                    <li>
+                      <a href="#" title="Facebook" target="_blank"
+                        ><i class="bi bi-facebook" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Twitter" target="_blank"
+                        ><i class="bi bi-twitter" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Instagram" target="_blank"
+                        ><i class="bi bi-instagram" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="YouTube" target="_blank"
+                        ><i class="bi bi-youtube" style="color: #829692"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="member">
-                    <h6>FINANCE ADVISOR</h6>
-                    <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-03.jpg" alt="Paula Den">
-                    <h2>Paula Den</h2>
-                    <div class="icons-7">
-                        <ul>
-                            <li><a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Twitter" target="_blank"><i class="bi bi-twitter" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="YouTube" target="_blank"><i class="bi bi-youtube" style="color:#829692"></i></a></li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="member">
+                <h6>FINANCE ADVISOR</h6>
+                <img
+                  src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-03.jpg"
+                  alt="Paula Den"
+                />
+                <h2>Paula Den</h2>
+                <div class="icons-7">
+                  <ul>
+                    <li>
+                      <a href="#" title="Facebook" target="_blank"
+                        ><i class="bi bi-facebook" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Twitter" target="_blank"
+                        ><i class="bi bi-twitter" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Instagram" target="_blank"
+                        ><i class="bi bi-instagram" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="YouTube" target="_blank"
+                        ><i class="bi bi-youtube" style="color: #829692"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="member">
-                    <h6>FINANCE ADVISOR</h6>
-                    <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-04.jpg" alt="Paula Den">
-                    <h2>Paula Den</h2>
-                    <div class="icons-7">
-                        <ul>
-                            <li><a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Twitter" target="_blank"><i class="bi bi-twitter" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="YouTube" target="_blank"><i class="bi bi-youtube" style="color:#829692"></i></a></li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="member">
+                <h6>FINANCE ADVISOR</h6>
+                <img
+                  src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-04.jpg"
+                  alt="Paula Den"
+                />
+                <h2>Paula Den</h2>
+                <div class="icons-7">
+                  <ul>
+                    <li>
+                      <a href="#" title="Facebook" target="_blank"
+                        ><i class="bi bi-facebook" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Twitter" target="_blank"
+                        ><i class="bi bi-twitter" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Instagram" target="_blank"
+                        ><i class="bi bi-instagram" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="YouTube" target="_blank"
+                        ><i class="bi bi-youtube" style="color: #829692"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="member">
-                    <h6>FINANCE ADVISOR</h6>
-                    <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-05.jpg" alt="Paula Den">
-                    <h2>Paula Den</h2>
-                    <div class="icons-7">
-                        <ul>
-                            <li><a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Twitter" target="_blank"><i class="bi bi-twitter" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="YouTube" target="_blank"><i class="bi bi-youtube" style="color:#829692"></i></a></li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="member">
+                <h6>FINANCE ADVISOR</h6>
+                <img
+                  src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-05.jpg"
+                  alt="Paula Den"
+                />
+                <h2>Paula Den</h2>
+                <div class="icons-7">
+                  <ul>
+                    <li>
+                      <a href="#" title="Facebook" target="_blank"
+                        ><i class="bi bi-facebook" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Twitter" target="_blank"
+                        ><i class="bi bi-twitter" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Instagram" target="_blank"
+                        ><i class="bi bi-instagram" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="YouTube" target="_blank"
+                        ><i class="bi bi-youtube" style="color: #829692"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="member">
-                    <h6>FINANCE ADVISOR</h6>
-                    <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-06.jpg" alt="Paula Den">
-                    <h2>Paula Den</h2>
-                    <div class="icons-7">
-                        <ul>
-                            <li><a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Twitter" target="_blank"><i class="bi bi-twitter" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram" style="color:#829692"></i></a></li>
-                            <li><a href="#" title="YouTube" target="_blank"><i class="bi bi-youtube" style="color:#829692"></i></a></li>
-                        </ul>
-                    </div>
+              </div>
+              <div class="member">
+                <h6>FINANCE ADVISOR</h6>
+                <img
+                  src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/team/team-img-06.jpg"
+                  alt="Paula Den"
+                />
+                <h2>Paula Den</h2>
+                <div class="icons-7">
+                  <ul>
+                    <li>
+                      <a href="#" title="Facebook" target="_blank"
+                        ><i class="bi bi-facebook" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Twitter" target="_blank"
+                        ><i class="bi bi-twitter" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="Instagram" target="_blank"
+                        ><i class="bi bi-instagram" style="color: #829692"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" title="YouTube" target="_blank"
+                        ><i class="bi bi-youtube" style="color: #829692"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
-        </div>
-    </article>
-</section>
+          </div>
+        </article>
+      </section>
 
-
-  <section class="section-8">
-    <article>
-        <div class="container-10">
-            <div class="box  box-1" >
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-01.png" alt="">
+      <section class="section-8">
+        <article>
+          <div class="container-10">
+            <div class="box box-1">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-01.png"
+                alt=""
+              />
             </div>
-            <div class="box box-2" >
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-02.png" alt="">
+            <div class="box box-2">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-02.png"
+                alt=""
+              />
             </div>
-            <div class="box box-3" >
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-03.png" alt="">
+            <div class="box box-3">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-03.png"
+                alt=""
+              />
             </div>
-            <div class="box box-4" >
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-04.png" alt="">
+            <div class="box box-4">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-04.png"
+                alt=""
+              />
             </div>
-            <div class="box box-5" >
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-05.png" alt="">
+            <div class="box box-5">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-05.png"
+                alt=""
+              />
             </div>
             <div class="box box-6">
-                <img src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-06.png" alt="">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/client/client-dark-06.png"
+                alt=""
+              />
             </div>
-        </div>
-    </article>
-</section>
+          </div>
+        </article>
+      </section>
 
-<section class="section-9">
-  <article class="article-9">
-    <div class="testimonial-title" id="testimonial-title">
-      <h6>TESTIMONIAL</h6>
-      <h1>Our customer reviews</h1>
-    </div>
+      <section class="section-9">
+        <article class="article-9">
+          <div class="testimonial-title" id="testimonial-title">
+            <h6>TESTIMONIAL</h6>
+            <h1>Our customer reviews</h1>
+          </div>
 
-    <!-- Carousel Wrapper mySwiper2-->
-    <div class="carousel swiper mySwiper2" id="testimonialCarousel">
-      <div class="carousel-inner swiper-wrapper ">
-        <!-- Testimonial 1 -->
-        <div class="carousel-item active swiper-slide">
-          <div class="testimonial-card">
-            <div class="inner-card">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg" alt="Client Image">
-              <div class="text">
-                <h2>Stephen Welch</h2>
-                <h6>SATISFIED CLIENT</h6>
-              </div>
-              <div class="ratings">
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-              </div>
-            </div>
-            <p class="para-5">I express my deep gratitude to the team for the impeccable and productive service to the company activities based on the results of seven years of joint work I recommend the services.</p>
-          </div>
-        </div>
-
-        <!-- Testimonial 2 -->
-        <div class="carousel-item active swiper-slide">
-          <div class="testimonial-card">
-            <div class="inner-card">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg" alt="Client Image">
-              <div class="text">
-                <h2>Stephen Welch</h2>
-                <h6>SATISFIED CLIENT</h6>
-              </div>
-              <div class="ratings">
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star "></i>
-              </div>
-            </div>
-            <p class="para-5">I express my deep gratitude to the team for the impeccable and productive service to the company activities based on the results of seven years of joint work I recommend the services.</p>
-          </div>
-        </div>
-
-        <!-- Testimonial 3 -->
-        <div class="carousel-item active swiper-slide">
-          <div class="testimonial-card">
-            <div class="inner-card">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg" alt="Client Image">
-              <div class="text">
-                <h2>Stephen Welch</h2>
-                <h6>SATISFIED CLIENT</h6>
-              </div>
-              <div class="ratings">
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-              </div>
-            </div>
-            <p class="para-5">I express my deep gratitude to the team for the impeccable and productive service to the company activities based on the results of seven years of joint work I recommend the services.</p>
-          </div>
-        </div>
-        <!-- 4 -->
-        <div class="carousel-item active swiper-slide">
-          <div class="testimonial-card">
-            <div class="inner-card">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg" alt="Client Image">
-              <div class="text">
-                <h2>Stephen Welch</h2>
-                <h6>SATISFIED CLIENT</h6>
-              </div>
-              <div class="ratings">
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-              </div>
-            </div>
-            <p class="para-5">I express my deep gratitude to the team for the impeccable and productive service to the company activities based on the results of seven years of joint work I recommend the services.</p>
-          </div>
-        </div>
-        <!-- 5 -->
-        <div class="carousel-item active swiper-slide">
-          <div class="testimonial-card">
-            <div class="inner-card">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg" alt="Client Image">
-              <div class="text">
-                <h2>Stephen Welch</h2>
-                <h6>SATISFIED CLIENT</h6>
-              </div>
-              <div class="ratings">
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-              </div>
-            </div>
-            <p class="para-5">I express my deep gratitude to the team for the impeccable and productive service to the company activities based on the results of seven years of joint work I recommend the services.</p>
-          </div>
-        </div>
-        <!-- 6 -->
-        <div class="carousel-item active swiper-slide">
-          <div class="testimonial-card">
-            <div class="inner-card">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg" alt="Client Image">
-              <div class="text">
-                <h2>Stephen Welch</h2>
-                <h6>SATISFIED CLIENT</h6>
-              </div>
-              <div class="ratings">
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-              </div>
-            </div>
-            <p class="para-5">I express my deep gratitude to the team for the impeccable and productive service to the company activities based on the results of seven years of joint work I recommend the services.</p>
-          </div>
-        </div>
-        <div class="carousel-item active swiper-slide">
-          <div class="testimonial-card">
-            <div class="inner-card">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg" alt="Client Image">
-              <div class="text">
-                <h2>Stephen Welch</h2>
-                <h6>SATISFIED CLIENT</h6>
-              </div>
-              <div class="ratings">
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-                <i class="bi-star"></i>
-              </div>
-            </div>
-            <p class="para-5">I express my deep gratitude to the team for the impeccable and productive service to the company activities based on the results of seven years of joint work I recommend the services.</p>
-          </div>
-        </div>
-
-        <!-- Additional testimonials can be added here -->
-
-      </div>
-    </div>
-  </article>
-</section>
-
-<section class="section-10">
-  <article class="article-10">
-    <div class="first-container">
-      <div class="image-container">
-        <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/bg/blog-bg.jpg" alt="" style="width: 100%; height: 100%;">
-      </div>
-      <div class="right-container-2">
-        <div class="right-content-2">
-         <h5>LATEST BLOG</h5>
-          <h1>Latest news <br> coming</h1>
-        </div>
-        <div class="container-image-1-content">
-          <div class="col-img">
-            <div class="col-img-1">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/blog/blog-01.jpg" alt=""  style=" width: 180px;
-              height: 130px;">
-            </div>
-            <div class="heading-text">
-              <span>
-                <h5>Business</h5> 
-              <h5 >14 JUL,2023</h5>
-              </span>
-              <div class="par">
-                <h1 class="hov">Determine and get in touch with.... </h1>
-              </div>
-              <div class="arrow">
-                <a href="#"><i class="material-symbols-outlined arrow">arrow_outward</i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- second -->
-        <div class="container-image-1-content">
-          <div class="col-img" >
-            <div class="col-img-1">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/blog/blog-02.jpg" alt="" style=" width: 180px; height: 130px; ">
-            </div>
-            <div class="heading-text">
-              <span>
-                <h5>ECONOMY</h5> 
-              <h5 >14 JUL,2023</h5>
-              </span>
-              <div class="par">
-                <h1 class="hov">Measure These 8 Crucial Brand Awareness.... </h1>
-              </div>
-              <div class="arrow">
-                <a href="#"><i class="material-symbols-outlined arrow">arrow_outward</i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- th -->
-        <div class="container-image-1-content">
-          <div class="col-img" >
-            <div class="col-img-1">
-              <img src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/blog/blog-03.jpg" alt=""  style="    width: 180px;
-              height: 130px;">
-            </div>
-            <div class="heading-text">
-              <span>
-                <h5>FINANCE</h5> 
-              <h5 >14 JUL,2023</h5>
-              </span>
-              <div class="par">
-                <h1 class="hov">Keep aware of new current.... </h1>
-              </div>
-              <div class="arrow">
-                <a href="#"><i class="material-symbols-outlined arrow">arrow_outward</i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-</section>
-
-
-<section class="footer-section">
-  <footer>
-      <div class="container-11s">
-        <div class="footer-icon">
-          <img src="https://capigo-demo.pbminfotech.com/html-demo/images/white-logo.svg" alt="">
-        </div>
-       <div class="footer-text">
-        <div class="footer-title">
-          <h2>Subscribe to our newsletter! Stay <br> always in touch!</h2>
-          <form><input type="Email" placeholder="Enter your email"><span class="material-symbols-outlined right-icon">
-            arrow_outward
-            </span></form>
-        </div>
-        <div class="next-col">
-          <div class="inner-wrap">
-            <h4>Our Address</h4>
-            <address class="add-1">Valentin, Street Road 24, New <br> Your, USA-67452</address>
-          </div>
-          <div class="contact-us">
-            <h4>Contact Us</h4>
-            <p class="email">noreply@pbminfotech.com</p>
-            <p>+(02) 574-328-301</p>
-          </div>
-          <div class="icons">
-            <h4>Our Social</h4>
-            <div class="social-link">
-              <div class="links-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                </svg>
+          <div class="carousel swiper mySwiper2" id="testimonialCarousel">
+            <div class="carousel-inner swiper-wrapper">
+              <div class="carousel-item active swiper-slide">
+                <div class="testimonial-card">
+                  <div class="inner-card">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg"
+                      alt="Client Image"
+                    />
+                    <div class="text">
+                      <h2>Stephen Welch</h2>
+                      <h6>SATISFIED CLIENT</h6>
+                    </div>
+                    <div class="ratings">
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                  <p class="para-5">
+                    I express my deep gratitude to the team for the impeccable
+                    and productive service to the company activities based on
+                    the results of seven years of joint work I recommend the
+                    services.
+                  </p>
                 </div>
-                <div class="links-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-                </svg>
               </div>
-              <div class="links-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                </svg>
+
+              <div class="carousel-item active swiper-slide">
+                <div class="testimonial-card">
+                  <div class="inner-card">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg"
+                      alt="Client Image"
+                    />
+                    <div class="text">
+                      <h2>Stephen Welch</h2>
+                      <h6>SATISFIED CLIENT</h6>
+                    </div>
+                    <div class="ratings">
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                  <p class="para-5">
+                    I express my deep gratitude to the team for the impeccable
+                    and productive service to the company activities based on
+                    the results of seven years of joint work I recommend the
+                    services.
+                  </p>
+                </div>
+              </div>
+
+              <div class="carousel-item active swiper-slide">
+                <div class="testimonial-card">
+                  <div class="inner-card">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg"
+                      alt="Client Image"
+                    />
+                    <div class="text">
+                      <h2>Stephen Welch</h2>
+                      <h6>SATISFIED CLIENT</h6>
+                    </div>
+                    <div class="ratings">
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                  <p class="para-5">
+                    I express my deep gratitude to the team for the impeccable
+                    and productive service to the company activities based on
+                    the results of seven years of joint work I recommend the
+                    services.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item active swiper-slide">
+                <div class="testimonial-card">
+                  <div class="inner-card">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg"
+                      alt="Client Image"
+                    />
+                    <div class="text">
+                      <h2>Stephen Welch</h2>
+                      <h6>SATISFIED CLIENT</h6>
+                    </div>
+                    <div class="ratings">
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                  <p class="para-5">
+                    I express my deep gratitude to the team for the impeccable
+                    and productive service to the company activities based on
+                    the results of seven years of joint work I recommend the
+                    services.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item active swiper-slide">
+                <div class="testimonial-card">
+                  <div class="inner-card">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg"
+                      alt="Client Image"
+                    />
+                    <div class="text">
+                      <h2>Stephen Welch</h2>
+                      <h6>SATISFIED CLIENT</h6>
+                    </div>
+                    <div class="ratings">
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                  <p class="para-5">
+                    I express my deep gratitude to the team for the impeccable
+                    and productive service to the company activities based on
+                    the results of seven years of joint work I recommend the
+                    services.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item active swiper-slide">
+                <div class="testimonial-card">
+                  <div class="inner-card">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg"
+                      alt="Client Image"
+                    />
+                    <div class="text">
+                      <h2>Stephen Welch</h2>
+                      <h6>SATISFIED CLIENT</h6>
+                    </div>
+                    <div class="ratings">
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                  <p class="para-5">
+                    I express my deep gratitude to the team for the impeccable
+                    and productive service to the company activities based on
+                    the results of seven years of joint work I recommend the
+                    services.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item active swiper-slide">
+                <div class="testimonial-card">
+                  <div class="inner-card">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/testimonial/testimonial-01.jpg"
+                      alt="Client Image"
+                    />
+                    <div class="text">
+                      <h2>Stephen Welch</h2>
+                      <h6>SATISFIED CLIENT</h6>
+                    </div>
+                    <div class="ratings">
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                      <i class="bi-star"></i>
+                    </div>
+                  </div>
+                  <p class="para-5">
+                    I express my deep gratitude to the team for the impeccable
+                    and productive service to the company activities based on
+                    the results of seven years of joint work I recommend the
+                    services.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- last -->
-        <div class="footer-end">
-          <div class="underline">
-            <div class="footer-lists">
-              <p class="footer-para-1">Copyright © 2024 Capigo Demo1, All Rights Reserved.</p>
-              <p class="footer-para">Terms & Conditions | Privacy Policy</p>
+        </article>
+      </section>
+
+      <section class="section-10">
+        <article class="article-10">
+          <div class="first-container">
+            <div class="image-container">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/bg/blog-bg.jpg"
+                alt=""
+                style="width: 100%; height: 100%"
+              />
+            </div>
+            <div class="right-container-2">
+              <div class="right-content-2">
+                <h5>LATEST BLOG</h5>
+                <h1>
+                  Latest news <br />
+                  coming
+                </h1>
+              </div>
+              <div class="container-image-1-content">
+                <div class="col-img">
+                  <div class="col-img-1">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/blog/blog-01.jpg"
+                      alt=""
+                      style="width: 180px; height: 130px"
+                    />
+                  </div>
+                  <div class="heading-text">
+                    <span>
+                      <h5>Business</h5>
+                      <h5>14 JUL,2023</h5>
+                    </span>
+                    <div class="par">
+                      <h1 class="hov">Determine and get in touch with....</h1>
+                    </div>
+                    <div class="arrow">
+                      <a href="#"
+                        ><i class="material-symbols-outlined arrow"
+                          >arrow_outward</i
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- second -->
+              <div class="container-image-1-content">
+                <div class="col-img">
+                  <div class="col-img-1">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/blog/blog-02.jpg"
+                      alt=""
+                      style="width: 180px; height: 130px"
+                    />
+                  </div>
+                  <div class="heading-text">
+                    <span>
+                      <h5>ECONOMY</h5>
+                      <h5>14 JUL,2023</h5>
+                    </span>
+                    <div class="par">
+                      <h1 class="hov">
+                        Measure These 8 Crucial Brand Awareness....
+                      </h1>
+                    </div>
+                    <div class="arrow">
+                      <a href="#"
+                        ><i class="material-symbols-outlined arrow"
+                          >arrow_outward</i
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- th -->
+              <div class="container-image-1-content">
+                <div class="col-img">
+                  <div class="col-img-1">
+                    <img
+                      src="https://capigo-demo.pbminfotech.com/html-demo/images/homepage-01/blog/blog-03.jpg"
+                      alt=""
+                      style="width: 180px; height: 130px"
+                    />
+                  </div>
+                  <div class="heading-text">
+                    <span>
+                      <h5>FINANCE</h5>
+                      <h5>14 JUL,2023</h5>
+                    </span>
+                    <div class="par">
+                      <h1 class="hov">Keep aware of new current....</h1>
+                    </div>
+                    <div class="arrow">
+                      <a href="#"
+                        ><i class="material-symbols-outlined arrow"
+                          >arrow_outward</i
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-       </div>
-      </div>
-  </footer>
-</section>
-</div>
+        </article>
+      </section>
 
+      <section class="footer-section">
+        <footer>
+          <div class="container-11s">
+            <div class="footer-icon">
+              <img
+                src="https://capigo-demo.pbminfotech.com/html-demo/images/white-logo.svg"
+                alt=""
+              />
+            </div>
+            <div class="footer-text">
+              <div class="footer-title">
+                <h2>
+                  Subscribe to our newsletter! Stay <br />
+                  always in touch!
+                </h2>
+                <form>
+                  <input type="Email" placeholder="Enter your email" /><span
+                    class="material-symbols-outlined right-icon"
+                  >
+                    arrow_outward
+                  </span>
+                </form>
+              </div>
+              <div class="next-col">
+                <div class="inner-wrap">
+                  <h4>Our Address</h4>
+                  <address class="add-1">
+                    Valentin, Street Road 24, New <br />
+                    Your, USA-67452
+                  </address>
+                </div>
+                <div class="contact-us">
+                  <h4>Contact Us</h4>
+                  <p class="email">noreply@pbminfotech.com</p>
+                  <p>+(02) 574-328-301</p>
+                </div>
+                <div class="icons">
+                  <h4>Our Social</h4>
+                  <div class="social-link">
+                    <div class="links-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-facebook"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                        />
+                      </svg>
+                    </div>
+                    <div class="links-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-twitter"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+                        />
+                      </svg>
+                    </div>
+                    <div class="links-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-instagram"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- last -->
+              <div class="footer-end">
+                <div class="underline">
+                  <div class="footer-lists">
+                    <p class="footer-para-1">
+                      Copyright © 2024 Capigo Demo1, All Rights Reserved.
+                    </p>
+                    <p class="footer-para">
+                      Terms & Conditions | Privacy Policy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-
-
-
-    
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<!-- GSAP -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-<!-- ScrollTrigger -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-<!-- Materialize JavaScript (Optional) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-
-
-<script>
-    // script.js
-// script.js
-function toggleMenu() {
-    var menu = document.querySelector('.list');
-    menu.classList.toggle('active'); // Toggle the 'active' class on the menu
-}
-
-
-// Select elements by class name
-const counts = document.querySelectorAll(".count-1");
-const count2 = document.querySelectorAll(".count-2");
-const count3 = document.querySelectorAll(".count-3");
-function counter(counts){
-    counts.forEach(count => {
-        let i = 0;
-        const interval = setInterval(() => {
-            if (i > 300) {
-                clearInterval(interval);
-            } else {
-                count.innerHTML = `${i}+`;
-                i++;
-            }
-        }, 10); 
-    });
-};
-counter(counts);
-
-function counter2(count2){
-  count2.forEach(count =>{
-    let i =0;
-    const interval = setInterval(()=>{
-      if(i>575){
-        clearInterval(interval);
-      }else{
-        count.innerHTML = `${i}+`;
-        i++;
-      }
-    },10);
-  });
-};
-counter2(count2);
-
-function counter3(count3){
- count3.forEach(count=>{
-  let i = 0;
-  const interval = setInterval(()=>{
-    if(i> 245){
-      clearInterval(interval);
-
-    }else{
-      count.innerHTML = `${i}+`;
-      i++;
-    }
-  },10)
- });
-};
-counter3(count3);
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    var swiper = new Swiper('.mySwiper', {
-      slidesPerView: 1,
-      centeredSlides: false,
-      slidesPerGroup: 1,
-      grabCursor: true,
-      loop: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      keyboard: {
-        enabled: true,
-      },
-      breakpoints: {
-        769: {
-          slidesPerView: 3,
-          slidesPerGroup: 4,
-        },
-      },
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },
-      // navigation: {
-      //   // nextEl: '.swiper-button-next',
-      //   // prevEl: '.swiper-button-prev',
-      // },
-      // pagination: {
-      //   el: '.swiper-pagination',
-      //   clickable: true,
-      // },
-    });
-  });
-  
-  document.addEventListener('DOMContentLoaded', () => {
-  var swiper = new Swiper('.mySwiper2', {
-    slidesPerView: 1,
-    centeredSlides: false,
-    slidesPerGroup: 1,
-    grabCursor: true,
-    loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
-    keyboard: {
-      enabled: true,
-    },
-    breakpoints: {
-      1300:{
-        slidesPerView: 3,
-          slidesPerGroup: 3,
-      },
-      1200: {
-          slidesPerView: 2,
-          slidesPerGroup: 2,
-        },
-      1100: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
-      },
-      600: {
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-      },
-      500:{
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-      }
-    },
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
-});
-
-
-// 
-var swiper = new Swiper("#mySwiper", {
-  // Optional parameters
-  // slidesPerView: 5,
-  spaceBetween: 0,
-  centeredSlides: true,
-  speed: 1500,
-  autoplay: {
-    delay: 0,
-  },
-  loop: true,
-  slidesPerView: 'auto',
-  allowTouchMove: false,
-  disableOnInteraction: true,
-  // If we need pagination
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   clickable: true,
-  // },
-  // Navigation arrows
-  // navigation: {
-  //   nextEl: '.swiper-button-next',
-  //   prevEl: '.swiper-button-prev',
-  // },
-  // Breakpoints
-  // breakpoints: {
-  //   640: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 20,
-  //   },
-  //   768: {
-  //     slidesPerView: 4,
-  //     spaceBetween: 40,
-  //   },
-  //   1024: {
-  //     slidesPerView: 5,
-  //     spaceBetween: 50,
-  //   },
-  // },
-});
-
-  AOS.init();
-
-  
-
-
- 
-  $(function() {
-  $('.chart').easyPieChart({
-    size: 160,
-    barColor: "#512888",
-    scaleLength: 0,
-    lineWidth: 15,
-    trackColor: "#ffffff",
-    lineCap: "circle",
-    animate: 2000,
-  });
-});
-$(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        navText: [
-            '<i class="bi bi-arrow-left-short"></i>', // Custom previous button
-            '<i class="bi bi-arrow-right-short"></i>'  // Custom next button
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3 // Updated to show 3 items on full desktop screens
-            }
-        }
-    });
-});
-
-var swiper = new Swiper('#swiper-container', {
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-      delay: 5000,
-    },
-  });
-
-  function toggleMenu() {
-    document.querySelector('.list').classList.toggle('active');
-  }
-
-
-
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
